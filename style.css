@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Arial', sans-serif;
+}
+
+.result-container{
+    text-align:center;
+    margin:100px auto;
+    padding:20px;
+    max-width:400px;
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius:8px;
+	color:blue;
+}
+.progress-bar-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+.progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 8px;
+    transition: width 1s ease-in-out;
+}
+#percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+}
+.result-message {
+    color: #27ae60;
+    font-weight: bold;
+}
+#marks {
+    color: #333;
+    font-weight: bold;
+}
+#course {
+    color: #e74c3c;
+    font-weight: bold;
+}
+.bottom{
+	text-align:center;
+}
+.top{
+	background-image:url("./E:\animals\image.jpg");
+	background-size:cover;
+}
